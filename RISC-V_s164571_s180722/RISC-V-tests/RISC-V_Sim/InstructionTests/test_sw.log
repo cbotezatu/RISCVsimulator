@@ -1,0 +1,786 @@
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000111011010110111',
+ 'immediate': 239437,
+ 'immediate_bin': '0b111010011101001101',
+ 'immediate_ext': 239437,
+ 'immediate_length': 20,
+ 'instrText': 'LUI',
+ 'instrType': 'U',
+ 'instruction': '00111010011101001101010000110111',
+ 'instruction_hex': '0x3a74d437',
+ 'instruction_key': ('o', 55),
+ 'instruction_key_bin': '00000000000000000000000000110111',
+ 'rd': 8}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 0,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+       0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 0,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,         0,
+               0,         0, 980733952,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000011100010000010011',
+ 'funct3': 0,
+ 'immediate': 3629,
+ 'immediate_bin': '0b111000101101',
+ 'immediate_ext': -467,
+ 'immediate_length': 12,
+ 'instrText': 'ADDI',
+ 'instrType': 'I',
+ 'instruction': '11100010110101000000010000010011',
+ 'instruction_hex': '0xe2d40413',
+ 'instruction_key': ('o3', 19),
+ 'instruction_key_bin': '00000000000000000000000000010011',
+ 'rd': 8,
+ 'rs1': 8}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 4,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,         0,
+               0,         0, 980733952,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 4,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,         0,
+               0,         0, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000110100100011',
+ 'funct3': 2,
+ 'immediate': 100,
+ 'immediate_bin': '0b1100100',
+ 'immediate_ext': 100,
+ 'immediate_length': 12,
+ 'instrText': 'SW',
+ 'instrType': 'S',
+ 'instruction': '00000110100000000010001000100011',
+ 'instruction_hex': '0x6802223',
+ 'instruction_key': ('o3', 291),
+ 'instruction_key_bin': '00000000000000000000000100100011',
+ 'rs1': 0,
+ 'rs2': 8}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 8,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,         0,
+               0,         0, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 8,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,         0,
+               0,         0, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000110000000011',
+ 'funct3': 0,
+ 'immediate': 100,
+ 'immediate_bin': '0b1100100',
+ 'immediate_ext': 100,
+ 'immediate_length': 12,
+ 'instrText': 'LB',
+ 'instrType': 'I',
+ 'instruction': '00000110010000000000001010000011',
+ 'instruction_hex': '0x6400283',
+ 'instruction_key': ('o3', 3),
+ 'instruction_key_bin': '00000000000000000000000000000011',
+ 'rd': 5,
+ 'rs1': 0}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 12,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,         0,
+               0,         0, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 12,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+               0,         0, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000110000000011',
+ 'funct3': 0,
+ 'immediate': 101,
+ 'immediate_bin': '0b1100101',
+ 'immediate_ext': 101,
+ 'immediate_length': 12,
+ 'instrText': 'LB',
+ 'instrType': 'I',
+ 'instruction': '00000110010100000000001100000011',
+ 'instruction_hex': '0x6500303',
+ 'instruction_key': ('o3', 3),
+ 'instruction_key_bin': '00000000000000000000000000000011',
+ 'rd': 6,
+ 'rs1': 0}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 16,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+               0,         0, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 16,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,         0, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000110000000011',
+ 'funct3': 0,
+ 'immediate': 102,
+ 'immediate_bin': '0b1100110',
+ 'immediate_ext': 102,
+ 'immediate_length': 12,
+ 'instrText': 'LB',
+ 'instrType': 'I',
+ 'instruction': '00000110011000000000001110000011',
+ 'instruction_hex': '0x6600383',
+ 'instruction_key': ('o3', 3),
+ 'instruction_key_bin': '00000000000000000000000000000011',
+ 'rd': 7,
+ 'rs1': 0}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 20,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,         0, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 20,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000110000000011',
+ 'funct3': 0,
+ 'immediate': 103,
+ 'immediate_bin': '0b1100111',
+ 'immediate_ext': 103,
+ 'immediate_length': 12,
+ 'instrText': 'LB',
+ 'instrType': 'I',
+ 'instruction': '00000110011100000000111000000011',
+ 'instruction_hex': '0x6700e03',
+ 'instruction_key': ('o3', 3),
+ 'instruction_key_bin': '00000000000000000000000000000011',
+ 'rd': 28,
+ 'rs1': 0}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 24,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 24,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,         0,
+               0,         0], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000110010000011',
+ 'funct3': 1,
+ 'immediate': 100,
+ 'immediate_bin': '0b1100100',
+ 'immediate_ext': 100,
+ 'immediate_length': 12,
+ 'instrText': 'LH',
+ 'instrType': 'I',
+ 'instruction': '00000110010000000001111010000011',
+ 'instruction_hex': '0x6401e83',
+ 'instruction_key': ('o3', 131),
+ 'instruction_key_bin': '00000000000000000000000010000011',
+ 'rd': 29,
+ 'rs1': 0}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 28,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,         0,
+               0,         0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 28,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+               0,         0], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000110010000011',
+ 'funct3': 1,
+ 'immediate': 102,
+ 'immediate_bin': '0b1100110',
+ 'immediate_ext': 102,
+ 'immediate_length': 12,
+ 'instrText': 'LH',
+ 'instrType': 'I',
+ 'instruction': '00000110011000000001111100000011',
+ 'instruction_hex': '0x6601f03',
+ 'instruction_key': ('o3', 131),
+ 'instruction_key_bin': '00000000000000000000000010000011',
+ 'rd': 30,
+ 'rs1': 0}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 32,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+               0,         0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 32,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,         0], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000110010000011',
+ 'funct3': 1,
+ 'immediate': 101,
+ 'immediate_bin': '0b1100101',
+ 'immediate_ext': 101,
+ 'immediate_length': 12,
+ 'instrText': 'LH',
+ 'instrType': 'I',
+ 'instruction': '00000110010100000001111110000011',
+ 'instruction_hex': '0x6501f83',
+ 'instruction_key': ('o3', 131),
+ 'instruction_key_bin': '00000000000000000000000010000011',
+ 'rd': 31,
+ 'rs1': 0}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 36,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,         0], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 36,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000000100110111',
+ 'immediate': 2,
+ 'immediate_bin': '0b10',
+ 'immediate_ext': 2,
+ 'immediate_length': 20,
+ 'instrText': 'LUI',
+ 'instrType': 'U',
+ 'instruction': '00000000000000000010100100110111',
+ 'instruction_hex': '0x2937',
+ 'instruction_key': ('o', 55),
+ 'instruction_key_bin': '00000000000000000000000000110111',
+ 'rd': 18}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 40,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 40,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+            8192,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000001111110000010011',
+ 'funct3': 0,
+ 'immediate': 2040,
+ 'immediate_bin': '0b11111111000',
+ 'immediate_ext': 2040,
+ 'immediate_length': 12,
+ 'instrText': 'ADDI',
+ 'instrType': 'I',
+ 'instruction': '01111111100010010000100100010011',
+ 'instruction_hex': '0x7f890913',
+ 'instruction_key': ('o3', 19),
+ 'instruction_key_bin': '00000000000000000000000000010011',
+ 'rd': 18,
+ 'rs1': 18}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 44,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+            8192,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 44,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000010000010011',
+ 'funct3': 0,
+ 'immediate': 50,
+ 'immediate_bin': '0b110010',
+ 'immediate_ext': 50,
+ 'immediate_length': 12,
+ 'instrText': 'ADDI',
+ 'instrType': 'I',
+ 'instruction': '00000011001000000000010010010011',
+ 'instruction_hex': '0x3200493',
+ 'instruction_key': ('o3', 19),
+ 'instruction_key_bin': '00000000000000000000000000010011',
+ 'rd': 9,
+ 'rs1': 0}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 48,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,         0,         0,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 48,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,        50,         0,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000011111110100100011',
+ 'funct3': 2,
+ 'immediate': 4073,
+ 'immediate_bin': '0b111111101001',
+ 'immediate_ext': -23,
+ 'immediate_length': 12,
+ 'instrText': 'SW',
+ 'instrType': 'S',
+ 'instruction': '11111111001001001010010010100011',
+ 'instruction_hex': '0xff24a4a3',
+ 'instruction_key': ('o3', 291),
+ 'instruction_key_bin': '00000000000000000000000100100011',
+ 'rs1': 9,
+ 'rs2': 18}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 52,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,        50,         0,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 52,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,        50,         0,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000011111110100000011',
+ 'funct3': 2,
+ 'immediate': 4073,
+ 'immediate_bin': '0b111111101001',
+ 'immediate_ext': -23,
+ 'immediate_length': 12,
+ 'instrText': 'LW',
+ 'instrType': 'I',
+ 'instruction': '11111110100101001010100110000011',
+ 'instruction_hex': '0xfe94a983',
+ 'instruction_key': ('o3', 259),
+ 'instruction_key_bin': '00000000000000000000000100000011',
+ 'rd': 19,
+ 'rs1': 9}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 56,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,        50,         0,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,         0,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 56,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,        50,         0,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,     10232,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000000000010011',
+ 'funct3': 0,
+ 'immediate': 10,
+ 'immediate_bin': '0b1010',
+ 'immediate_ext': 10,
+ 'immediate_length': 12,
+ 'instrText': 'ADDI',
+ 'instrType': 'I',
+ 'instruction': '00000000101000000000010100010011',
+ 'instruction_hex': '0xa00513',
+ 'instruction_key': ('o3', 19),
+ 'instruction_key_bin': '00000000000000000000000000010011',
+ 'rd': 10,
+ 'rs1': 0}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 60,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,        50,         0,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,     10232,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 60,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,        50,        10,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,     10232,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+'\n\n################################################################\n'
+('\n'
+ '\n'
+ 'NEW '
+ 'INSTRUCTION################################################################\n')
+{'concatInstructions': '00000000000000000000000001110011',
+ 'instrText': 'ECALL',
+ 'instrType': '?',
+ 'instruction': '00000000000000000000000001110011',
+ 'instruction_hex': '0x73',
+ 'instruction_key': ('all', 115),
+ 'instruction_key_bin': '00000000000000000000000001110011'}
+('\n'
+ '\n'
+ 'BEFORE '
+ 'EXECUTION################################################################\n')
+{'PC': 64,
+ 'hardwareErrorLev': 0,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,        50,        10,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,     10232,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+('\n'
+ '\n'
+ 'AFTER '
+ 'EXECUTION################################################################\n')
+{'PC': 64,
+ 'hardwareErrorLev': 2,
+ 'memoryArray': array([ 55, 212, 116, ...,   0,   0,   0], dtype=uint8),
+ 'memorySize': 2147483648,
+ 'registerArray': array([        0,         0,         0,         0,         0,        45,
+             -50,       116, 980733485,        50,        10,         0,
+               0,         0,         0,         0,         0,         0,
+           10232,     10232,         0,         0,         0,         0,
+               0,         0,         0,         0,        58,    -12755,
+           14964,     29902], dtype=int32)}
+'Exited with hardware error level 2'
+'The program has run succesfully'

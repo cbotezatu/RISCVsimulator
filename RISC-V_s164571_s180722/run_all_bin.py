@@ -2,8 +2,7 @@ import RISC_V_simulator
 import os
 
 #dir = 'RISC-V-tests/RISC-V_Sim/InstructionTests'
-#dir = 'tests'
-file = 'test_add.bin'
+dir = 'test_files'
 
 for file in [file for file in os.listdir(dir) if os.fsdecode(file).endswith(".bin")]:
     filename = os.fsdecode(file)
